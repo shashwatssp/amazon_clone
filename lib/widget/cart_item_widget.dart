@@ -69,7 +69,7 @@ class CartItemWidget extends StatelessWidget {
                     dimention: 40),
                 CustomSquareButton(
                     child: const Text(
-                      "0",
+                      "1",
                       style: TextStyle(
                         color: activeCyanColor,
                       ),

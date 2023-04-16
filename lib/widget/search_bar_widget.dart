@@ -5,7 +5,7 @@ import 'package:amazon_clone/utils/constants.dart';
 import 'package:amazon_clone/utils/utils.dart';
 import 'package:flutter/material.dart';
 
-class SearchBarWidget extends StatelessWidget with PreferredSizeWidget {
+class SearchBarWidget extends StatelessWidget implements PreferredSizeWidget {
   final bool isReadOnly;
   final bool hasBackButton;
   SearchBarWidget({

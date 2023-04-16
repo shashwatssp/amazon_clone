@@ -12,10 +12,12 @@ class RatingStarWidget extends StatelessWidget {
           ? const Icon(
               Icons.star,
               color: Colors.orange,
+              size: 1,
             )
           : const Icon(
               Icons.star_border,
               color: Colors.orange,
+              size: 1,
             ));
     }
     return Row(

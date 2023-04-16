@@ -12,11 +12,12 @@ class ReviewDialog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return RatingDialog(
+      starSize: 28,
       title: const Text(
         'Type a review for this product!',
         textAlign: TextAlign.center,
         style: TextStyle(
-          fontSize: 25,
+          fontSize: 18,
           fontWeight: FontWeight.bold,
         ),
       ),
